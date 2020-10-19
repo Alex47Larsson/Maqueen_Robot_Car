@@ -41,6 +41,9 @@ radio.onReceivedNumber(function (receivedNumber) {
 maqueen.ltEvent(maqueen.Patrol1.PatrolRight, maqueen.Voltage.Low, function () {
 	
 })
+input.onButtonPressed(Button.A, function () {
+    basic.showString("This program uses a Controller:Bit as its controller")
+})
 maqueen.ltEvent(maqueen.Patrol1.PatrolLeft, maqueen.Voltage.Low, function () {
 	
 })
